@@ -1,0 +1,29 @@
+// export const GET_ACCOUNT_DETAILS = "GET_ACCOUNT_DETAILS";
+// export const GET_ACCOUNT_DETAILS_SUCCESS = "GET_ACCOUNT_DETAILS_SUCCESS";
+// export const GET_ACCOUNT_DETAILS_ERROR = "GET_ACCOUNT_DETAILS_ERROR";
+
+// export const ADD_PROFILE_DETAILS = "ADD_PROFILE_DETAILS";
+// export const ADD_PROFILE_DETAILS_SUCCESS = "ADD_PROFILE_DETAILS_SUCCESS";
+// export const ADD_PROFILE_DETAILS_ERROR = "ADD_PROFILE_DETAILS_ERROR";
+
+
+// export const STORE_PROFILE_DETAILS = "STORE_PROFILE_DETAILS";
+
+// export const STORE_CURRENT_ROUTE_NAME = "STORE_CURRENT_ROUTE_NAME";
+
+// export const RESET_ALL = "RESET_ALL";
+// export const CLEAR_ALL = "CLEAR_ALL";
+// export const UNAUTHORIZED_LOGOUT = "UNAUTHORIZED_LOGOUT";
+
+// ......................................
+export const GET_CHART_DATA = "GET_CHART_DATA";
+export const GET_CHART_DATA_SUCCESS = "GET_CHART_DATA_SUCCESS";
+export const GET_CHART_DATA_ERROR = "GET_CHART_DATA_ERROR";
+
+ 
+export const getChartData = user =>({
+    type: GET_CHART_DATA,
+})
+ 
+
+ 
