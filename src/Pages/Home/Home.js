@@ -22,8 +22,8 @@ const Home = (props) => {
         <Container>
             <Row>
                 {chartData.length > 0 && chartData.map((data,index) => {
-                    return <>  <Col lg={4} key={index}>
-                        {/* {data.type}  */}
+                    return <>  <Col lg={4} key={index} className="App">
+                     
                         <CustomChart data={data}/> 
                     </Col></>
                 })}
